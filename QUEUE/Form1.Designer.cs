@@ -48,10 +48,10 @@
             this.GrListDgv = new System.Windows.Forms.GroupBox();
             this.lstQueue = new System.Windows.Forms.ListBox();
             this.DgvCola = new System.Windows.Forms.DataGridView();
+            this.PctImagen = new System.Windows.Forms.PictureBox();
             this.c1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PctImagen = new System.Windows.Forms.PictureBox();
             this.grNuevoElemento.SuspendLayout();
             this.grElEliminado.SuspendLayout();
             this.GrListDgv.SuspendLayout();
@@ -245,27 +245,6 @@
             this.DgvCola.Size = new System.Drawing.Size(587, 150);
             this.DgvCola.TabIndex = 1;
             // 
-            // c1
-            // 
-            this.c1.HeaderText = "Codigo";
-            this.c1.MinimumWidth = 6;
-            this.c1.Name = "c1";
-            this.c1.Width = 145;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "nombre";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "tramite";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
             // PctImagen
             // 
             this.PctImagen.Image = ((System.Drawing.Image)(resources.GetObject("PctImagen.Image")));
@@ -275,6 +254,27 @@
             this.PctImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctImagen.TabIndex = 7;
             this.PctImagen.TabStop = false;
+            // 
+            // c1
+            // 
+            this.c1.HeaderText = "CODE";
+            this.c1.MinimumWidth = 6;
+            this.c1.Name = "c1";
+            this.c1.Width = 145;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "NAME";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "PROCESS";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Form1
             // 
@@ -320,10 +320,10 @@
         private System.Windows.Forms.GroupBox GrListDgv;
         private System.Windows.Forms.ListBox lstQueue;
         private System.Windows.Forms.DataGridView DgvCola;
+        private System.Windows.Forms.PictureBox PctImagen;
         private System.Windows.Forms.DataGridViewTextBoxColumn c1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.PictureBox PctImagen;
     }
 }
 
