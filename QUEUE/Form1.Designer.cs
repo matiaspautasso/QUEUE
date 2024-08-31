@@ -222,7 +222,7 @@
             this.GrListDgv.Size = new System.Drawing.Size(960, 182);
             this.GrListDgv.TabIndex = 6;
             this.GrListDgv.TabStop = false;
-            this.GrListDgv.Text = "List";
+            this.GrListDgv.Text = "LIST";
             // 
             // lstQueue
             // 
